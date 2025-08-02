@@ -44,8 +44,8 @@ In our daily lives, we are often overwhelmed by a large number of tasks, which l
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/taskflow.git
-cd taskflow
+git clone [https://github.com/your-username/taskflow.git](https://github.com/Shwetank-nitp/todo-project-ai.git)
+cd todo-project-ai
 ```
 
 ### 2. Setup Backend
@@ -55,17 +55,13 @@ cd backend
 npm install
 ```
 
-Create a `.env` file in the `backend` directory by copying the example:
-
-```bash
-cp example.env .env
-```
+Create a `.env` file in the `backend` directory by renaming `example.env` file to `.env`.
 
 Then, edit the `.env` file and replace the placeholders:
 
 ```
-MONGO_URI=<your-mongodb-uri>
-MISTRAL_API_KEY=<your-mistral-api-key>
+MONGO_DB=<your-mongodb-uri>
+MISTRAL_AI_API=<your-mistral-api-key>
 ```
 
 > 💡 **Mistral API keys are free** — sign up at [https://mistral.ai](https://mistral.ai) to get yours.  
