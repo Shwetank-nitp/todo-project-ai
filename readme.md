@@ -51,7 +51,7 @@ cd todo-project-ai
 ### 2. Setup Backend
 
 ```bash
-cd backend
+cd backend-todo
 npm install
 ```
 
@@ -79,7 +79,7 @@ npm install
 Start the backend server:
 
 ```bash
-cd ../backend
+cd ../backend-todo
 npm run dev
 ```
 
