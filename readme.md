@@ -68,7 +68,8 @@ MONGO_URI=<your-mongodb-uri>
 MISTRAL_API_KEY=<your-mistral-api-key>
 ```
 
-> 💡 _Mistral API keys are free — sign up at [https://mistral.ai](https://mistral.ai) to get yours._
+> 💡 **Mistral API keys are free** — sign up at [https://mistral.ai](https://mistral.ai) to get yours.  
+> 💡 After signing up, navigate to the **API Keys** section and generate a new API key.
 
 ### 3. Setup Frontend
 
